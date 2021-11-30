@@ -21,7 +21,6 @@ import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener, TextWatcher, TextToSpeech.OnInitListener {
 
-    Button btCalc;
     FloatingActionButton btShare;
     FloatingActionButton btSpeak;
     EditText numPeople, payValue;
@@ -41,9 +40,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         payValue = (EditText) findViewById(R.id.editTxtValue);
         payValue.addTextChangedListener(this);
-
-        btCalc = (Button) findViewById(R.id.button);
-        btCalc.setOnClickListener(this);
 
         btShare = (FloatingActionButton) findViewById(R.id.shareFloatingButton);
         btShare.setOnClickListener(this);

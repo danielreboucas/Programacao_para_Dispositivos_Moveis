@@ -1,4 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">VamosRachar</string>
+    <string name="app_name">Vamos Rachar</string>
     <string name="dividir_a_conta">Dividir a conta</string>
+    <string name="title_name">Vamos Rachar!</string>
+    <string name="pay_value">Valor da conta</string>
+    <string name="num_people">Número de pessoas</string>
+    <string name="split_value">0.00</string>
+    <string name="share">Compartilhar</string>
+    <string name="speak">Falar</string>
 </resources>
